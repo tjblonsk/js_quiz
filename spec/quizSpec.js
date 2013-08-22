@@ -25,3 +25,28 @@ describe('question1', function() {
 
 // Write the next tests yourself!
 // See quiz.js for more details
+
+describe('question2', function() {
+
+  it('returns false if parameter is < 90', function() {
+    expect(quiz.nearHundred(89)).toBe(false);
+  });
+});
+
+
+
+//this function works in the console but the test is failing
+describe('question3', function() {
+
+  it('returns ct if you enter cat, 1', function() {
+    expect(quiz.missingChar('cat', 1)).toBe('ct');
+  });
+});
+
+
+
+
+
+
+
+
